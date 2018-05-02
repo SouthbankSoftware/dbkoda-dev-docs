@@ -6,7 +6,9 @@ Log `LEVEL`s from most important to least important are `error`,`warn`,`notice`,
 
 ### Log general info
 
-`l.info('The controller is launching at %s', ipAddr)`
+`l.info('The controller is launching at %s:%d', ipAddr, portNum)`
+
+You can use all formats from `node`'s [util.format](https://nodejs.org/api/util.html#util\_util\_format\_format\_args).
 
 ### Log error
 
